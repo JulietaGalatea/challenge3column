@@ -2,26 +2,36 @@
     box-sizing: border-box;
 }
 
-html, body {
+body {
     height: 100%;
 }
 
 body {
     background-color: hsla(0, 0%, 100%, 0.75);
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
-    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4%;
+    padding-bottom: 9%;
+    min-height: 100vh;
+    position: relative;
 }
 
 .attribution {
-    align-self: flex-end;
-
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: 2%;
 }
 
 .principal {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 868px;
     min-width: 320px;
     color: hsla(0, 0%, 100%, 0.75);
@@ -30,6 +40,8 @@ body {
 
 .column {
     padding: 3rem;
+    max-width: 284px;
+    min-width: none;
 }
 
 .sedan {
